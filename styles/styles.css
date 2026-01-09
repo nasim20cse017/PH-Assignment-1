@@ -63,20 +63,17 @@ button:hover {
     font-weight: bold;
 }
 
-/* Banner Section */
 .banner {
    background: url('../assets/hero-bg.png');
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
-   /* position: relative; */
    padding: 115px 120px 180px 120px;
    text-align: center;
    color: white;
 }
 
 .banner-content {
-   /* position: relative; */
    max-width: 1360px;
    margin: 0 auto;
 }
@@ -98,7 +95,7 @@ button:hover {
 .dot {
     width: 12px;
     height: 12px;
-    background-color: #30B868; /* light green for the dot */
+    background-color: #30B868; 
     border-radius: 50%;
     box-shadow: 0 0px 8px 2px #30B868;
 }
@@ -146,17 +143,17 @@ button:hover {
     height: 15px;
         }
 
-/* Notes Section */
 .notes-section {
-   padding: 100px 0;
    text-align: center;
-   max-width: 1280px;
+   max-width: 1600px;
+   background-color: #f9f6f6;
 }
 
 .notes-section h2 {
    font-size: 48px;
    font-weight: bold;
    margin-bottom: 16px;
+   padding-top: 60px;
 }
 
 .notes-section .subtitle {
@@ -171,12 +168,15 @@ button:hover {
    display: flex;
    justify-content: space-around;
    gap: 30px;
+   max-width: 1280px;
+   margin: 0 auto;
+   padding-bottom: 0;
 }
 
 .card {
    background: white;
    padding: 40px 20px;
-   border-radius: 12px;
+   border-radius: 12px 12px 0 0;
    box-shadow: 0 4px 10px #0000000D;
 }
 
@@ -206,6 +206,61 @@ button:hover {
 .card p {
    color: #666;
    font-size: 1rem;
+}
+
+.second-brain-section {
+   padding: 120px 0;
+   background: #fff;
+   max-width: 1280px;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.second-brain-grid {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 auto;
+   gap: 80px;
+}
+
+.image-content img{
+   width: 600px;
+   height: 600px;
+}
+
+.solution-label {
+   color: #30B868;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 20px;
+   }
+
+.second-brain-section h2 {
+   font-size: 48px;
+   font-weight: bold;
+   margin: 16px 0;
+}
+
+.second-brain-section p {
+   font-size: 16px;
+   color: #627382;
+   margin-bottom: 40px;
+}
+
+.features-list li {
+   display: flex;
+   align-items: center;
+   margin-bottom: 16px;
+   font-size: 16px;
+   font-weight: 500;
+}
+
+.features-list img {
+   margin-right: 15px;
+   height: 24px;
 }
 
 
